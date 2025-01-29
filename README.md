@@ -25,24 +25,24 @@ Un'applicazione web moderna per la gestione e visualizzazione di ricette, costru
 ## 📦 Installazione
 
 ### 1. Clona il repository:
-```bash
+```sh
 git clone https://github.com/tuousername/app_ricettario.git
 cd app_ricettario
 ```
 
 ### 2. Installa le dipendenze:
-```bash
+```sh
 composer install
 npm install
 ```
 
 ### 3. Copia il file di configurazione:
-```bash
+```sh
 cp .env.example .env
 ```
 
 ### 4. Genera la chiave dell'applicazione:
-```bash
+```sh
 php artisan key:generate
 ```
 
@@ -65,7 +65,7 @@ I contributi sono benvenuti! Per favore, leggi le linee guida prima di contribui
 Questo progetto è sotto licenza MIT - vedi il file [LICENSE](LICENSE) per i dettagli.
 
 ## 👥 Autori
-- **Nome Cognome** - Sviluppatore principale
+- **Paolo Celani** - Sviluppatore principale
 
 ---
 
