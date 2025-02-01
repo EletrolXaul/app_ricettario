@@ -8,7 +8,7 @@
         <!-- Immagine della ricetta -->
         <div class="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
             <img 
-                src="{{ $recipe['image'] }}" 
+                src="{{ asset($recipe['image']) }}" 
                 alt="{{ $recipe['name'] }}" 
                 class="w-full h-full object-cover"
                 onerror="this.src='{{ asset('images/default-recipe.jpg') }}'"
@@ -16,7 +16,7 @@
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent">
                 <div class="absolute bottom-4 left-4 flex items-center space-x-2">
                     <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.871c1.355 0 2.697.056 4.024.166C17.155 8.51 18 9.473 18 10.608v2.513M15 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.871c1.355 0 2.697.056 4.024.166C17.155 8.51 18 9.473 18 10.608v2.513" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.871c1.355 0 2.697.056 4.024.166C17.155 8.51 18 9.473 18 10.608v2.513M15 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513" />
                     </svg>
                     <span class="text-sm text-white bg-black/50 px-3 py-1 rounded-full">
                         {{ count($recipe['ingredients']) }} ingredienti

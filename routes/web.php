@@ -8,7 +8,7 @@ $recipes = [
         'id' => 1,
         'name' => 'Spaghetti alla Carbonara',
         'description' => 'La classica pasta romana con uova, guanciale e pecorino',
-        'image' => 'https://www.giallozafferano.it/images/244-24489/Spaghetti-alla-Carbonara_450x300.jpg',
+        'image' => 'images/recipes/carbonara.jpg', // Percorso locale
         'ingredients' => [
             '400g spaghetti',
             '200g guanciale',
@@ -28,7 +28,7 @@ $recipes = [
         'id' => 2,
         'name' => 'Tiramisù',
         'description' => 'Il dolce italiano più amato nel mondo',
-        'image' => 'https://www.giallozafferano.it/images/237-23742/Tiramisu_450x300.jpg',
+        'image' => 'images/recipes/tiramisu.jpg', // Percorso locale
         'ingredients' => [
             '500g mascarpone',
             '4 uova',
@@ -48,7 +48,7 @@ $recipes = [
         'id' => 3,
         'name' => 'Lasagne alla Bolognese',
         'description' => 'Il classico primo piatto della tradizione emiliana',
-        'image' => 'https://www.giallozafferano.it/images/239-23928/Lasagne-alla-Bolognese_450x300.jpg',
+        'image' => 'images/recipes/lasagna-alla-bolognese.jpg', // Percorso locale
         'ingredients' => [
             'Pasta all\'uovo',
             'Ragù alla bolognese',
@@ -68,7 +68,7 @@ $recipes = [
         'id' => 4,
         'name' => 'Parmigiana di Melanzane',
         'description' => 'Gustoso piatto della tradizione mediterranea',
-        'image' => 'https://www.giallozafferano.it/images/236-23657/Parmigiana-di-melanzane_450x300.jpg',
+        'image' => 'images/recipes/parmigiana.jpg', // Percorso locale
         'ingredients' => [
             'Melanzane',
             'Salsa di pomodoro',
@@ -88,7 +88,7 @@ $recipes = [
         'id' => 5,
         'name' => 'Risotto ai Funghi Porcini',
         'description' => 'Cremoso risotto con funghi porcini freschi',
-        'image' => 'https://www.giallozafferano.it/images/241-24145/Risotto-ai-funghi-porcini_450x300.jpg',
+        'image' => 'images/recipes/risotto-funghi.jpg', // Già corretto
         'ingredients' => [
             'Riso Carnaroli',
             'Funghi porcini',
@@ -109,7 +109,7 @@ $recipes = [
         'id' => 6,
         'name' => 'Vitello Tonnato',
         'description' => 'Antipasto piemontese freddo e raffinato',
-        'image' => 'https://www.giallozafferano.it/images/238-23805/Vitello-tonnato_450x300.jpg',
+        'image' => 'images/recipes/vitello-tonnato.jpg', // Percorso locale
         'ingredients' => [
             'Girello di vitello',
             'Tonno sott\'olio',
@@ -129,7 +129,7 @@ $recipes = [
         'id' => 7,
         'name' => 'Pizza Margherita',
         'description' => 'La regina delle pizze napoletane',
-        'image' => 'https://www.giallozafferano.it/images/242-24292/Pizza-Margherita_450x300.jpg',
+        'image' => 'images/recipes/pizza-margherita.jpg', // Percorso locale
         'ingredients' => [
             'Farina 00',
             'Pomodori San Marzano',
@@ -150,7 +150,7 @@ $recipes = [
         'id' => 8,
         'name' => 'Osso Buco alla Milanese',
         'description' => 'Piatto tradizionale lombardo con risotto allo zafferano',
-        'image' => 'https://www.giallozafferano.it/images/235-23534/Osso-Buco-alla-milanese_450x300.jpg',
+        'image' => 'images/recipes/osso-buco.jpg', // Percorso locale
         'ingredients' => [
             'Osso buco di vitello',
             'Brodo di carne',
@@ -170,7 +170,7 @@ $recipes = [
         'id' => 9,
         'name' => 'Cannoli Siciliani',
         'description' => 'Dolce tipico siciliano con ricotta',
-        'image' => 'https://www.giallozafferano.it/images/240-24078/Cannoli-siciliani_450x300.jpg',
+        'image' => 'images/recipes/cannoli.jpg', // Percorso locale
         'ingredients' => [
             'Farina per le cialde',
             'Ricotta di pecora',

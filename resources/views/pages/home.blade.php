@@ -13,7 +13,7 @@
                         class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-md shadow-sm overflow-hidden transition-all duration-200 hover:shadow-lg hover:-translate-y-1">
                         <div class="relative aspect-[4/3]">
                             <img 
-                                src="{{ $recipe['image'] }}" 
+                                src="{{ asset($recipe['image']) }}" 
                                 alt="{{ $recipe['name'] }}"
                                 class="w-full h-full object-cover"
                                 onerror="this.src='{{ asset('images/default-recipe.jpg') }}'"
